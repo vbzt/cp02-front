@@ -1,11 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinil Store - A maior loja de discos da América Latina</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1 class="logo">Vinil<span>Store</span></h1>
+            <nav>
+              <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#store">Loja Virtual</a></li>
+                <li><a href="#contact">Contato</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+            <h2>A maior loja de discos da América Latina</h2>
+            <p>Aberto todos os dias das 8:00 - 18:00</p>
+            <a href="#store" class="btn-primary">Ver mais</a>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="container">
+            <h2>Nossos serviços</h2>
+            <div class="services-grid">
+              <div class="service-card">
+                <h3>Venda de discos e CDs</h3>
+                <p>Consulte com nosso gerente para preços de acordo com a qualidade e o estado do produto.</p>
+              </div>
+              <div class="service-card">
+                <h3>Compra de discos e CDs</h3>
+                <p>Nossa loja conta com diversas sessões para cada tipo de gosto musical diferente.</p>
+              </div>
+            </div>
+        </div>
+      </section>  
+
+      <section class="store" id="store">
+        <div class="container">
+            <h2>Loja virtual</h2>
+            <p class="store-description">Nossa loja virtual atualiza diariamente com 6 discos aleatórios de nossa coleção.</p>
+            <div class="products">
+              <div class="product" id="product-1">
+                <img src="images/81MgBQJwANL._UF1000,1000_QL80_.jpg" alt="Capa do álbum Clube da Esquina" class="product-image">
+                <div class="product-info">
+                    <h4>Clube da Esquina</h4>
+                    <p class="artist">Milton Nascimento</p>
+                    <p class="price">R$ 180,00</p>
+                    <button class="btn-buy">Adicionar</button>
+                </div>
+              </div>
+              <div class="product" id="product-2">
+                <img src="images/DI01007.jpg" alt="Capa do álbum Minas" class="product-image">
+                <div class="product-info">
+                    <h4>Minas</h4>
+                    <p class="artist">Milton Nascimento</p>
+                    <p class="price">R$ 165,00</p>
+                    <button class="btn-buy">Adicionar</button>
+                </div>
+              </div>
+              <div class="product" id="product-3">
+                <img src="images/ab67616d0000b273ee65bbd54f993b5f01d5c511.jpg" alt="Capa do álbum Love Deluxe" class="product-image">
+                <div class="product-info">
+                    <h4>Love Deluxe</h4>
+                    <p class="artist">Sade</p>
+                    <p class="price">R$ 210,00</p>
+                    <button class="btn-buy">Adicionar</button>
+                </div>
+              </div>
+              <div class="product" id="product-4">
+                <img src="images/Sade_-_Promise.jpg" alt="Capa do álbum Promise" class="product-image">
+                <div class="product-info">
+                    <h4>Promise</h4>
+                    <p class="artist">Sade</p>
+                    <p class="price">R$ 195,00</p>
+                    <button class="btn-buy">Adicionar</button>
+                </div>
+              </div>
+              <div class="product" id="product-5">
+                <img src="images/812EgYpATnL.jpg" alt="Capa do álbum Off the Wall" class="product-image">
+                <div class="product-info">
+                    <h4>Off the Wall</h4>
+                    <p class="artist">Michael Jackson</p>
+                    <p class="price">R$ 250,00</p>
+                    <button class="btn-buy">Adicionar</button>
+                </div>
+              </div>
+              <div class="product" id="product-6">
+                <img src="images/ab67616d0000b273867e6deed5cca20c553e8ba1.jpg" alt="Capa do álbum Cartão Postal" class="product-image">
+                <div class="product-info">
+                    <h4>Sobrevivendo ao Inferno</h4>
+                    <p class="artist">Racionais MC</p>
+                    <p class="price">R$ 135,00</p>
+                    <button class="btn-buy">Adicionar</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contatos</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <p>contato@vinilstore.com.br</p>
+                </div>
+                <div class="contact-item">
+                    <p>(11) 98765-4321</p>
+                </div>
+                <div class="contact-item">
+                    <p>Rua dos Músicos, 1001 - Santo André, SP</p>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 VinilStore. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
