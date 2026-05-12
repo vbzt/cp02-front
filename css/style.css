@@ -145,3 +145,96 @@ nav a:hover {
   padding: var(--spacing-xl) 0;
   background: white;
 }
+
+.services h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--primary);
+}
+ 
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+ 
+.service-card {
+  background: var(--cream);
+  padding: var(--spacing-lg);
+  border-radius: 8px;
+  text-align: center;
+  transition: var(--transition);
+  border: 2px solid var(--border);
+}
+ 
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent);
+}
+ 
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--primary);
+}
+ 
+.service-card p {
+  color: var(--text-light);
+  line-height: 1.8;
+}
+ 
+.store {
+  padding: var(--spacing-xl) 0;
+  background: var(--light);
+}
+ 
+.store h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--primary);
+}
+ 
+.store-description {
+  text-align: center;
+  color: var(--text-light);
+  margin-bottom: var(--spacing-lg);
+  font-size: 1.1rem;
+}
+ 
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+ 
+.product {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  cursor: pointer;
+}
+ 
+.product:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+ 
+.product-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: var(--secondary);
+}
+ 
+.product-info {
+  padding: var(--spacing-md);
+}
+ 
