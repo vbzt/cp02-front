@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+:root {
+  --primary: #5d4a37;
+  --secondary: #8b6f47;
+  --accent: #b88b4a;
+  --accent-hover: #9a7039;
+  --terracota: #c17c5d;
+  --light: #f5f1e8;
+  --cream: #e8dcc4;
+  --text: #3a2f25;
+  --text-light: #6b5d4f;
+  --border: #d4c4a8;
+ 
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+  --spacing-xl: 4rem;
+ 
+  --shadow-sm: 0 2px 8px rgba(93, 74, 55, 0.1);
+  --shadow-md: 0 4px 16px rgba(93, 74, 55, 0.15);
+  --shadow-lg: 0 8px 32px rgba(93, 74, 55, 0.2);
+ 
+  --transition: all 0.3s ease;
+}
+ 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--light);
+}
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+ 
+header {
+  background: var(--primary);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: var(--shadow-md);
+}
